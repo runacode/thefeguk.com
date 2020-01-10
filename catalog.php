@@ -181,7 +181,16 @@ $ksdk->echoJavascript();
     </div>
 
 </div>
-
+<div class="container-fluid bottom-add-to-cart">
+    <div class="row">
+        <div class="col-12 persons-online">
+            <i class="fa fa-users">&nbsp;</i><span>222</span> people are looking at the same product as you
+        </div>
+        <div class="col-12">
+            <button class="add-to-cart" ><?php echo $product->add_to_cart ?></button>
+        </div>
+    </div>
+</div>
 <?php include_once('pixelcode/pixelhelper.php'); ?>
 
 
@@ -190,6 +199,8 @@ $ksdk->echoJavascript();
 
 </body>
 </html>
+
+
 
 
 
