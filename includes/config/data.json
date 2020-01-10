@@ -5,8 +5,8 @@
   "FaceBookCurrency": "GBP",
   "products": [
     {
-      "cid": 34,
-      "cid_free": 35,
+      "cid": 64,
+      "cid_free": 65,
       "img": "/resources/images/main-banner.jpg",
       "imgsafe": "/resources/images/smain-big.jpg",
       "img_small": "/resources/images/smain-small.jpg",
