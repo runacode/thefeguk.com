@@ -300,6 +300,7 @@ var klander = function()
 				lander.loadCountries('country');
 				lander.loadCountries('shipCountry');
 				lander.loadStates('state');
+				lander.loadStates('city');
 				lander.loadStates('shipState');
 
 				node = document.getElementById('kprofileCancelEdit');
